@@ -44,7 +44,10 @@
 		      		<div class="caption">
 		       		 	<h3>Alternadores</h3>
 		        		<p class="text-justify">
-		        			Un alternador es un componente eléctrico del vehículo, encargado de generar energía eléctrica, a partir de energía mecánica, generalmente obtenida por un mecanismo de arrastre desde un motor de combustión interna, tanto alternativo, como turbina de gas o Wankel (un tipo de motor de combustión interna, inventado por Félix Wankel, que utiliza rotores en vez de pistones). La corriente eléctrica producida es corriente alterna, no necesita sistema de regulación de la intensidad o disyuntor como la energía producida por un dinamo. Sin embargo sí necesita un dispositivo de regulación del voltaje y de rectificación, ya que la corriente usada por los sistemas es normalmente continua y obtenida desde una batería o acumulador. También es de gran importancia un sistema de rectificación trifásico para obtener una corriente continua con leves pulsaciones, gracias a que el giro del motor varia constantemente. El alternador juega con un rol muy importante en la operación del vehículo. Su función principal es convertir la energía mecánica del cigüeñal en electricidad a través de la inducción, la cual es usada para dar energía a los accesorios de los autos, los cuales pueden ser desde los faros delanteros hasta los limpiaparabrisas. El alternador mantiene a la batería completamente cargada, quien se encarga de dar la electricidad necesaria para que arranque el auto. En Electroauto Oscartita le repararemos su alternador cual sea su falla, para nosotros lo importante es satisfacer sus necesidades.
+		        			<div class="comentario">
+		        				Un alternador es un componente eléctrico del vehículo, encargado de generar energía eléctrica, a partir de energía mecánica, generalmente obtenida por un mecanismo de arrastre desde un motor de combustión interna, tanto alternativo, como turbina de gas o Wankel (un tipo de motor de combustión interna, inventado por Félix Wankel, que utiliza rotores en vez de pistones). La corriente eléctrica producida es corriente alterna, no necesita sistema de regulación de la intensidad o disyuntor como la energía producida por un dinamo. Sin embargo sí necesita un dispositivo de regulación del voltaje y de rectificación, ya que la corriente usada por los sistemas es normalmente continua y obtenida desde una batería o acumulador. También es de gran importancia un sistema de rectificación trifásico para obtener una corriente continua con leves pulsaciones, gracias a que el giro del motor varia constantemente. El alternador juega con un rol muy importante en la operación del vehículo. Su función principal es convertir la energía mecánica del cigüeñal en electricidad a través de la inducción, la cual es usada para dar energía a los accesorios de los autos, los cuales pueden ser desde los faros delanteros hasta los limpiaparabrisas. El alternador mantiene a la batería completamente cargada, quien se encarga de dar la electricidad necesaria para que arranque el auto. En Electroauto Oscartita le repararemos su alternador cual sea su falla, para nosotros lo importante es satisfacer sus necesidades.
+		        			</div>
+		        				<span class="more">Leer mas...</span>
 		        		</p>
 		        		<p><a href="#" class="btn btn-primary" role="button">Contratar servicio</a> <a href="#" class="btn btn-default" role="button">Contactos</a></p>
 		      		</div>
@@ -88,5 +91,28 @@
 		  	</div>
 		</div>
 	</div>
+	<script>
+		$(document).ready(function(){
+   //código a ejecutar cuando el DOM está listo para recibir instrucciones.
+   			var caracteresAMostrar = 300;
+   			var contenido = $(".comentario") .html();
+
+   			if (contenido.length > caracteresAMostrar) {
+   				var resumen = contenido.substr(0, caracteresAMostrar);
+   				var todo = contenido.substr(caracteresAMostrar, contenido.length - caracteresAMostrar);
+   			
+
+   			var nuevocontenido = resumen + '<span class="complete">' + todo + '</span><br>';
+   			$(".comentario") .html(nuevocontenido);
+   			}
+
+   			$(".more") .toggle(function() {
+   				$(this) .text("Leer menos...") .siblings(".complete") .show();
+   				}, function(){
+   					$(this) .text("Leer mas...") .siblings(".complete") .hide();
+   				}
+   			);
+		});
+	</script>
 </body>
 </html>
