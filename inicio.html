@@ -11,7 +11,61 @@
 </head>
 <body>
 	<div class="container-fluid">
-		
+		<div class="center-block" class="row">
+			<table id="img-tabla" class="table-responsive">
+				<tr>
+					<td><img id="img-tamano" class="img-responsive" src="img/CHERY.png" alt=""></td>
+					<td><img id="img-tamano" class="img-responsive" src="img/CHEVROLET.png" alt=""></td>
+					<td><img id="img-tamano" class="img-responsive" src="img/CHRYSLER.png" alt=""></td>
+					<td><img id="img-tamano" class="img-responsive" src="img/DODGE.png" alt=""></td>
+					<td><img id="img-tamano" class="img-responsive" src="img/FIAT.png" alt=""></td>
+					<td><img id="img-tamano" class="img-responsive" src="img/FORD.png" alt=""></td>
+					<td><img id="img-tamano" class="img-responsive" src="img/HONDA.png" alt=""></td>
+					<td><img id="img-tamano" class="img-responsive" src="img/HYUNDAI.png" alt=""></td>
+					<td><img id="img-tamano" class="img-responsive" src="img/JEEP.png" alt=""></td>
+					<td><img id="img-tamano" class="img-responsive" src="img/MAZDA.png" alt=""></td>
+					<td><img id="img-tamano" class="img-responsive" src="img/MITSUBISHI.png" alt=""></td>
+					<td><img id="img-tamano" class="img-responsive" src="img/PEUGEOT.png" alt=""></td>
+					<td><img id="img-tamano" class="img-responsive" src="img/TOYOTA.png" alt=""></td>
+					<td><img id="img-tamano" class="img-responsive" src="img/VOLSKWAGEN.png" alt=""></td>
+				</tr>
+			</table>
+		</div>
+		<div class="row">
+			<ul class="nav nav-tabs">
+  				<li role="presentation" class="active"><a href="#">Inicio</a></li>
+  				<li role="presentation"><a href="#">Servicios</a></li>
+  				<li role="presentation"><a href="#">Citas</a></li>
+			</ul>
+		</div>
+		<div class="row">
+			<div class="col-sm-6 col-md-4">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+    					<h3 class="panel-title">Noticias</h3>
+  					</div>
+					<div class="panel-body">
+						<div class="media">
+  							<div class="media-left media-middle">
+      							<img class="media-object" src="img/noticia-uno.jpg" alt="...">
+  							</div>
+  							<div class="media-body">
+    							<h4 class="media-heading">Plan Venezuela en Movimiento</h4>
+    							<div class="expandable">
+    							<p class="text-justify">
+    							El nuevo plan de Venezuela Productiva Automotriz fue publicado en Gaceta Oficial N° 41.122 de fecha 27 de marzo de 2017, bajo el decreto N° 2.787.
+    							Las ensambladoras de vehículos y motocicletas del país se verán muy beneficiadas con recursos propios de los concesionarios o de los particulares, fabricantes de autopartes y las empresas metalmecánicas conexas.
+    							Con este decreto, el Gobierno Bolivariano de Venezuela, busca re-impulsar la industria automotriz en el país, con el fin de activar el sector productor en Venezuela a través de Venezuela Productiva Automotriz.
+								La producción de carros para el sector público y privado se incrementará y ensambladoras como Chery podrán explotar al máximo sus capacidades.
+								Se busca re-activar Venezuela Productiva Automotriz y reiniciar la entrega de carros del gobierno con los carros Chery.
+  								</p>
+  								</div>
+  							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
 	</div>
 	<script>
 	$(document).ready(function() {
@@ -20,7 +74,7 @@
 		// *** O ***
 		// configure de la siguiente manera
 		$('div.expandable p').expander({
-		slicePoint: 325, // si eliminamos por defecto es 100 caracteres
+		slicePoint: 150, // si eliminamos por defecto es 100 caracteres
 		expandText: 'Leer mas', // por defecto es 'read more...'
 		expandPrefix: '...&nbsp&nbsp&nbsp;', //valor de espacio por defecto es '&hellip; ',
 		collapseTimer: 5000, // tiempo de para cerrar la expanción si desea poner 0 pra no cerrar
