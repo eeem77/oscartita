@@ -13,6 +13,3 @@
 }
 .carousel-inner { text-align: center; }
 .carousel .item > img { display: inline-block; }
-.carousel, .carousel-inner > .item > img {
-  height: 450px;
-}
