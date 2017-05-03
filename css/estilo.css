@@ -11,3 +11,5 @@
 	width: 200px;
 	height: 170px;
 }
+.carousel-inner { text-align: center; }
+.carousel .item > img { display: inline-block; }
