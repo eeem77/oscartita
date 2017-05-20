@@ -191,21 +191,21 @@
             <div class="pull-right">
                 <div class="media">
                     <div class="media-middle">
-                        <a href="https://www.instagram.com/electroauto_oscartita/?hl=es">
+                        <a href="https://www.instagram.com/electroauto_oscartita/?hl=es" data-toggle="tooltip" data-placement="left" title="Ir a Instagram">
                             <img class="media-object redes-sociales img-responsive" src="img/img-redes-sociales/instagram.png">
                         </a>
                     </div>
                 </div>
                 <div class="media">
                     <div class="media-middle">
-                        <a href="https://www.facebook.com/search/top/?q=oscartita%20confianza">
+                        <a href="https://www.facebook.com/search/top/?q=oscartita%20confianza" data-toggle="tooltip" data-placement="left" title="Ir a Facebook">
                             <img class="media-object redes-sociales img-responsive" src="img/img-redes-sociales/facebook.png">
                         </a>
                     </div>
                 </div>
                 <div class="media">
                     <div class="media-middle">
-                        <a href="">
+                        <a href="" data-toggle="tooltip" data-placement="left" title="Ir a Twitter">
                             <img class="media-object redes-sociales img-responsive" src="img/img-redes-sociales/twitter.png">
                         </a>
                     </div>
@@ -227,6 +227,11 @@
             collapseTimer: 0, // tiempo de para cerrar la expanción si desea poner 0 pra no cerrar
             userCollapseText: 'Leer menos' // por defecto es 'read less...'
         });
+    });
+</script>
+<script>
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
     });
 </script>
 </body>
