@@ -4,10 +4,14 @@
 	margin-top: 10px;
 }
 #row-servicios{
-	margin-top: 15px;
+	margin-top: 13px;
 }
 .img-servicios{
 	margin-top: 10px;
 }
 .carousel-inner { text-align: center; }
 .carousel .item > img { display: inline-block; }
+.redes-sociales{
+	width: 80px;
+	height: 80px;
+}
