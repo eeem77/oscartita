@@ -6,6 +6,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/servicios/escaner.jpg" afterPath="$PROJECT_DIR$/img/servicios/escaner.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/servicios/inyectores.jpg" afterPath="$PROJECT_DIR$/img/servicios/inyectores.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/servicios/mecanica.jpg" afterPath="$PROJECT_DIR$/img/servicios/mecanica.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/estilo.css" afterPath="$PROJECT_DIR$/css/estilo.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inicio.html" afterPath="$PROJECT_DIR$/inicio.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/servicios.html" afterPath="$PROJECT_DIR$/servicios.html" />
@@ -155,12 +156,12 @@
       <option name="presentableId" value="Default" />
       <updated>1495220555804</updated>
       <workItem from="1495220562898" duration="3225000" />
-      <workItem from="1495237645274" duration="6092000" />
+      <workItem from="1495237645274" duration="6209000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9317000" />
+    <option name="totallyTimeSpent" value="9434000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
