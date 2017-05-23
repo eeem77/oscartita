@@ -30,24 +30,22 @@ function test_input($data){
 
 if (empty($nombre or $apellido or $celular or $email or $vehiculo)) {
     echo "
-        <div class=\"container-fluid\">
-            <div class=\"row\">
-                <div class=\"col-sm-5 col-md-3 col-lg-6\">
-                    <div class=\"modal-content\">
-				        <div class=\"modal-header\">
-					        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>
-					        <h4 class=\"modal-title\" id=\"myModalLabel\">Contrato de Servicio</h4>
-				        </div>
-                        <div class=\"modal-body\">
-							
-				        </div>
-				        <div class=\"modal-footer\">
-				            <button onclick=\"location.href='servicios.html'\" type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Cerrar</button>
-				        </div>
-			        </div>
-			    </div>
-            </div>
-        </div>
+                    
+					    <div class=\"modal-dialog modal-sm\" role=\"document\">
+                            <div class=\"modal-content\">
+                                <div class=\"modal-header\">
+                                    <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>
+                                    <h4 class=\"modal-title\" id=\"myModalLabel\">Contrato de Servicio</h4>
+                                </div>
+                                <div class=\"modal-body\">
+                                
+                                </div>
+                                <div class=\"modal-footer\">
+                                    <button onclick=\"location.href='servicios.html'\" type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                 
     ";
 } else{
     echo $nombre;
