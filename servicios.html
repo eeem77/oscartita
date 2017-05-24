@@ -100,14 +100,14 @@
 							</div>
 							<div class="modal-body">
 								<form method="post" action="validacion.php" class="form-horizontal">
-									<div class="form-group">
+									<div id="nombre" class="form-group">
 										<div class="col-sm-12">
-											<input type="text" name="nombre" class="form-control" id="nombre-contrato-servicio" placeholder="Nombres">
+											<input type="text" name="nombre" onfocus="descambiar()" onblur="cambiar()" class="form-control" id="inputnombre" aria-describedby="helpBlock2" placeholder="Nombres">
 										</div>
 									</div>
 									<div class="form-group">
 										<div class="col-sm-12">
-											<input type="text" name="apellido" class="form-control" id="apellido-contrato-servicio" placeholder="Apellidos">
+											<input type="text" name="apellido" class="form-control" id="inputapellido" placeholder="Apellidos">
 										</div>
 									</div>
 									<div class="form-group">
@@ -166,6 +166,14 @@
 		</div>
 	</div>
 </div>
+<script>
+    function cambiar() {
+        $("#nombre").attr("class","form-group has-success")
+    }
+    function descambiar() {
+        $("#nombre").attr("class","form-group")
+    }
+</script>
 <script>
     $(document).ready(function() {
         // use esta configuracion simple para valores por defecto
