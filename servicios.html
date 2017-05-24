@@ -91,7 +91,7 @@
 				<div class="text-center">
 				<button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">Contratar servicio</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="btn btn-default">Contactos</button>
 				</div>
-				<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+				<div class="modal fade bs-example-modal-sm contorno-modal-servicio" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
 					<div class="modal-dialog modal-sm" role="document">
 						<div class="modal-content">
 							<div class="modal-header">
@@ -102,7 +102,8 @@
 								<form method="post" action="validacion.php" class="form-horizontal">
 									<div id="nombre" class="form-group">
 										<div class="col-sm-12">
-											<input type="text" name="nombre" onfocus="descambiar()" onblur="cambiar()" class="form-control" id="inputnombre" aria-describedby="helpBlock2" placeholder="Nombres">
+											<input type="text" name="nombre" onfocus="descambiar()" onblur="cambiar()" class="form-control" placeholder="Nombres">
+											<span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
 										</div>
 									</div>
 									<div class="form-group">
@@ -168,7 +169,7 @@
 </div>
 <script>
     function cambiar() {
-        $("#nombre").attr("class","form-group has-success")
+        $("#nombre").attr("class","form-group has-success has-feedback")
     }
     function descambiar() {
         $("#nombre").attr("class","form-group")
