@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--suppress ALL -->
 <html>
 <head>
 	<title>Electroauto Oscartita</title>
@@ -95,20 +96,21 @@
 					<div class="modal-dialog modal-sm" role="document">
 						<div class="modal-content">
 							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<button onclick="descambiarnombre()" type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 								<h4 class="modal-title" id="myModalLabel">Contrato de Servicio</h4>
 							</div>
 							<div class="modal-body">
 								<form method="post" action="validacion.php" class="form-horizontal">
 									<div id="nombre" class="form-group">
 										<div class="col-sm-12">
-											<input type="text" name="nombre" onfocus="descambiar()" onblur="cambiar()" class="form-control" placeholder="Nombres">
-											<span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+											<input id="in-nombre" type="text" name="nombre" onfocus="descambiarnombre()" onblur="cambiarnombre()" class="form-control" placeholder="Nombres">
+                                            <span id="form-span-nombre" class=""></span>
 										</div>
 									</div>
-									<div class="form-group">
+									<div id="apellido" class="form-group">
 										<div class="col-sm-12">
-											<input type="text" name="apellido" class="form-control" id="inputapellido" placeholder="Apellidos">
+											<input type="text" name="apellido" class="form-control" placeholder="Apellidos">
+                                            <span id="form-span-apellido" class="" ></span>
 										</div>
 									</div>
 									<div class="form-group">
@@ -158,7 +160,7 @@
 								</form>
 							</div>
 							<div class="modal-footer">
-								<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+								<button onclick="descambiarnombre()" type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
 							</div>
 						</div>
 					</div>
@@ -168,15 +170,27 @@
 	</div>
 </div>
 <script>
-    function cambiar() {
-        $("#nombre").attr("class","form-group has-success has-feedback")
+    function cambiarnombre() {
+
+        if ($('#in-nombre').val().trim() === '') {
+            $('#nombre').attr('class', 'form-group has-error has-feedback');
+            $('#form-span-nombre').attr('class', 'glyphicon glyphicon-remove form-control-feedback');
+        }
+        else {
+            $('#nombre').attr('class', 'form-group has-success has-feedback');
+            $('#form-span-nombre').attr('class', 'glyphicon glyphicon-ok form-control-feedback');
+        }
     }
-    function descambiar() {
-        $("#nombre").attr("class","form-group")
+    function descambiarnombre() {
+        $('#nombre').attr('class', 'form-group');
+        $('#form-span-nombre').attr('class', '');
+        $('#in-nombre').val('');
     }
-</script>
-<script>
-    $(document).ready(function() {
+
+    $(document).ready(function () {
+        jQuery('#in-nombre').keyup(function () {
+            this.value = this.value.replace(/[^a-zA-Z]/g, '');
+        });
         // use esta configuracion simple para valores por defecto
         //$('div.expandable p').expander();
         // *** O ***
