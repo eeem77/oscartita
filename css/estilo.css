@@ -4,10 +4,10 @@
 	margin-top: 10px;
 }
 .row-inicio{
-	margin-top: 13px;
+	margin-top: 20px;
 }
 .row-servicios{
-	margin-top: 13px;
+	margin-top: 20px;
 }
 .img-servicios{
 	margin-top: 10px;
@@ -21,3 +21,7 @@
 #titulo-direccion{
 	font-size: large;
 }
+.panel-google{
+	height: 470px;
+}
+
