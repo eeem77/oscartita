@@ -162,7 +162,7 @@
 									</div>
 									<div class="form-group">
 										<div class="col-sm-offset-2 col-sm-12">
-											<button type="submit" class="btn btn-primary">Solicitar servicio</button>
+											<button id="btn-solicitar-servicio" type="submit" class="btn btn-primary">Solicitar servicio</button>
 										</div>
 									</div>
 								</form>
@@ -182,76 +182,107 @@
         if ($('#in-nombre').val().trim() === '') {
             $('#nombre').attr('class', 'form-group has-error has-feedback');
             $('#form-span-nombre').attr('class', 'glyphicon glyphicon-remove form-control-feedback');
+            $a = 0;
         }
         else {
             $('#nombre').attr('class', 'form-group has-success has-feedback');
             $('#form-span-nombre').attr('class', 'glyphicon glyphicon-ok form-control-feedback');
+            $a = 1;
+            if ($a == 1 && $b == 1 && $c == 1 && $d == 1 && $e == 1){
+                $('#btn-solicitar-servicio').show();
+            }
         }
     }
     function descambiarnombre() {
         $('#nombre').attr('class', 'form-group');
         $('#form-span-nombre').attr('class', '');
         $('#in-nombre').val('');
+        $('#btn-solicitar-servicio').hide();
     }
     function cambiarapellido() {
         if ($('#in-apellido').val().trim() === ''){
             $('#apellido').attr('class', 'form-group has-error has-feedback');
             $('#form-span-apellido').attr('class', 'glyphicon glyphicon-remove form-control-feedback');
+            $b = 0;
         }
         else {
             $('#apellido').attr('class', 'form-group has-success has-feedback');
             $('#form-span-apellido').attr('class', 'glyphicon glyphicon-ok form-control-feedback');
+            $b = 1;
+            if ($a == 1 && $b == 1 && $c == 1 && $d == 1 && $e == 1){
+                $('#btn-solicitar-servicio').show();
+            }
         }
     }
     function descambiarapellido() {
         $('#apellido').attr('class', 'form-group');
         $('#form-span-apellido').attr('class', '');
         $('#in-apellido').val('');
+        $('#btn-solicitar-servicio').hide();
     }
     function cambiarcelular() {
         if ($('#in-celular').val().trim() === ''){
             $('#celular').attr('class', 'form-group has-error has-feedback');
             $('#form-span-celular').attr('class', 'glyphicon glyphicon-remove form-control-feedback');
+            $c = 0;
         }
         else {
             $('#celular').attr('class', 'form-group has-success has-feedback');
             $('#form-span-celular').attr('class', 'glyphicon glyphicon-ok form-control-feedback');
+            $c = 1;
+            if ($a == 1 && $b == 1 && $c == 1 && $d == 1 && $e == 1){
+                $('#btn-solicitar-servicio').show();
+            }
         }
     }
     function descambiarcelular() {
         $('#celular').attr('class', 'form-group');
         $('#form-span-celular').attr('class', '');
         $('#in-celular').val('');
+        $c = 0;
+        $('#btn-solicitar-servicio').hide();
     }
     function cambiaremail() {
         if ($('#in-email').val().trim() === ''){
             $('#email').attr('class', 'form-group has-error has-feedback');
             $('#form-span-email').attr('class', 'glyphicon glyphicon-remove form-control-feedback');
+            $d = 0;
         }
         else {
             $('#email').attr('class', 'form-group has-success has-feedback');
             $('#form-span-email').attr('class', 'glyphicon glyphicon-ok form-control-feedback');
+            $d = 1;
+            if ($a == 1 && $b == 1 && $c == 1 && $d == 1 && $e == 1){
+                $('#btn-solicitar-servicio').show();
+            }
         }
     }
     function descambiaremail() {
         $('#email').attr('class', 'form-group');
         $('#form-span-email').attr('class', '');
         $('#in-email').val('');
+        $('#btn-solicitar-servicio').hide();
     }
     function cambiarcarro() {
         if ($('#in-carro').val().trim() === ''){
             $('#carro').attr('class', 'form-group has-error has-feedback');
             $('#form-span-carro').attr('class', 'glyphicon glyphicon-remove form-control-feedback');
+            $e = 0;
         }
         else {
             $('#carro').attr('class', 'form-group has-success has-feedback');
             $('#form-span-carro').attr('class', 'glyphicon glyphicon-ok form-control-feedback');
+            $e = 1;
+            if ($a == 1 && $b == 1 && $c == 1 && $d == 1 && $e == 1){
+                $('#btn-solicitar-servicio').show();
+			}
         }
     }
     function descambiarcarro() {
         $('#carro').attr('class', 'form-group');
         $('#form-span-carro').attr('class', '');
         $('#in-carro').val('');
+        $('#btn-solicitar-servicio').hide();
     }
     function descambiartodo() {
         $('#nombre').attr('class', 'form-group');
@@ -270,8 +301,17 @@
         $('#form-span-carro').attr('class', '');
         $('#in-carro').val('');
         $('#in-obs').val('');
+        $('#btn-solicitar-servicio').hide();
     }
     $(document).ready(function () {
+        var $a = 0;
+        var $b = 0;
+        var $c = 0;
+        var $d = 0;
+        var $e = 0;
+
+        $('#btn-solicitar-servicio').hide();
+
         jQuery('#in-nombre').keyup(function () {
             this.value = this.value.replace(/[^a-zA-Z]/g, '');
         });
