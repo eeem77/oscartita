@@ -21,20 +21,17 @@
 #titulo-direccion{
 	font-size: large;
 }
-.panel-google{
-	height: 470px;
-}
 .con{
 	margin-top: 12%;
 	text-align: center;
 	opacity: 0.7;
 }
 .btn-index{
-	background-color: #0f0f0f;
+	background-color: #761c19;
 	border-color: #777777;
 }
 .btn-index:hover{
 	background-color: #777777;
-	border-color: #0f0f0f;
+	border-color: #761c19;
 }
 
