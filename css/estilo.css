@@ -37,3 +37,21 @@
 a{
 	color: #f7f7f7;
 }
+.fondo_panel{
+	background-color: #0f0f0f;
+	opacity: 0.8;
+}
+.fondo_panel2{
+	background-color: transparent;
+}
+.panel-white {
+	background-color: #0f0f0f;
+	opacity: 0.8;
+}
+p{
+	color: white;
+}
+h4,h3{
+	color: white;
+}
+
