@@ -25,6 +25,7 @@
 	margin-top: 12%;
 	text-align: center;
 	opacity: 0.7;
+	background-color: #0f0f0f;
 }
 .btn-index{
 	background-color: #761c19;
@@ -35,7 +36,7 @@
 	border-color: #761c19;
 }
 a{
-	color: #f7f7f7;
+	color: white;
 }
 .fondo_panel{
 	background-color: #0f0f0f;
@@ -50,12 +51,15 @@ a{
 	opacity: 0.8;
 }
 p{
-	color: white;
+	color: #8c8c8c;
 }
 h4,h3{
 	color: white;
 }
 .prueba{
+	color: white;
+}
+.jumbotron{
 	color: white;
 }
 
