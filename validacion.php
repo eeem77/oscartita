@@ -12,6 +12,23 @@
 </head>
 <body>
 <?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "oscartita";
+
+// Creacion de la conexion con la base de datos
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Chequeo de la conexion
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+// Mensaje de conexion
+echo "Conexion con la base de datos de forma correcta";
+echo "<br>";
+
 $name = $apellido = $celular = $email = $vehiculo = "";
 
 $nombre = test_input($_POST["nombre"]);
@@ -19,7 +36,24 @@ $apellido = test_input($_POST["apellido"]);
 $celular = test_input($_POST["celular"]);
 $email = test_input($_POST["email"]);
 $vehiculo = test_input($_POST["vehiculo"]);
+$obs = test_input($_POST["obs"]);
 $bandera = false;
+
+if (isset($_POST['alternador']) !="") {
+    $servicio = "Alternador";
+} else {
+    $servicio = "";
+}
+
+$sql = "INSERT INTO clientes_problemas (nombres, apellidos, contactos, correos, marca_modelo, observaciones, servicios) VALUES ('".$nombre."','".$apellido."','".$celular."','".$email."','".$vehiculo."','".$obs."','".$servicio."')";
+
+if ($conn->query($sql) === TRUE) {
+    echo "se insertaron los datos en la tabla";
+} else {
+    echo "Error: " . $sql . "<br>" . $conn->connect_error;
+}
+
+$conn->close();
 
 function test_input($data){
     $data = trim($data);
@@ -28,26 +62,6 @@ function test_input($data){
     return $data;
 }
 
-if (empty($nombre or $apellido or $celular or $email or $vehiculo)) {
-    echo "
-                    
-					    <div class=\"modal-dialog modal-sm\" role=\"document\">
-                            <div class=\"modal-content\">
-                                <div class=\"modal-header\">
-                                    <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>
-                                    <h4 class=\"modal-title\" id=\"myModalLabel\">Contrato de Servicio</h4>
-                                </div>
-                                <div class=\"modal-body\">
-                                
-                                </div>
-                                <div class=\"modal-footer\">
-                                    <button onclick=\"location.href='servicios.html'\" type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Cerrar</button>
-                                </div>
-                            </div>
-                        </div>
-                 
-    ";
-} else{
     echo $nombre;
     echo "<br>";
     echo $apellido;
@@ -57,7 +71,9 @@ if (empty($nombre or $apellido or $celular or $email or $vehiculo)) {
     echo $email;
     echo "<br>";
     echo $vehiculo;
-}
+    echo "<br>";
+    echo $obs;
+
 /**
  * Created by PhpStorm
  * User: eeem77

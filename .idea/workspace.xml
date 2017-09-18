@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7cf99e42-a980-4eef-b10b-591fae9d3900" name="Default" comment="" />
+    <list default="true" id="7cf99e42-a980-4eef-b10b-591fae9d3900" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/servicios.html" afterPath="$PROJECT_DIR$/servicios.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/validacion.php" afterPath="$PROJECT_DIR$/validacion.php" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -12,14 +16,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="inicio.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/inicio.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="37" column="45" lean-forward="true" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="59" />
+            <state relative-caret-position="629">
+              <caret line="37" column="45" lean-forward="false" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -38,14 +41,14 @@
       <file leaf-file-name="servicios.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/servicios.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="776">
-              <caret line="341" column="0" lean-forward="false" selection-start-line="341" selection-start-column="0" selection-end-line="341" selection-end-column="0" />
+            <state relative-caret-position="425">
+              <caret line="142" column="110" lean-forward="false" selection-start-line="142" selection-start-column="110" selection-end-line="142" selection-end-column="110" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="estilo.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="estilo.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/estilo.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
@@ -55,12 +58,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="validacion.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="validacion.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/validacion.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="561">
+              <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+              <folding>
+                <marker date="1505747664608" expanded="true" signature="1392:1513" ph="INSERT INTO clientes_problemas... " />
+                <marker date="1505747664608" expanded="true" signature="1392:1527" ph="INSERT INTO clientes_problemas... " />
+                <marker date="1505747664608" expanded="true" signature="1392:1543" ph="INSERT INTO clientes_problemas... " />
+                <marker date="1505747664608" expanded="true" signature="1392:1558" ph="INSERT INTO clientes_problemas... " />
+                <marker date="1505747664608" expanded="true" signature="1392:1571" ph="INSERT INTO clientes_problemas... " />
+                <marker date="1505747664608" expanded="true" signature="1392:1587" ph="INSERT INTO clientes_problemas... " />
+                <marker date="1505747664608" expanded="true" signature="1392:1598" ph="INSERT INTO clientes_problemas... " />
+                <marker date="1505747664608" expanded="true" signature="1392:1613" ph="INSERT INTO clientes_problemas... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,11 +93,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/servicios.php" />
-        <option value="$PROJECT_DIR$/validacion.php" />
-        <option value="$PROJECT_DIR$/servicios.html" />
         <option value="$PROJECT_DIR$/inicio.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/estilo.css" />
+        <option value="$PROJECT_DIR$/servicios.html" />
+        <option value="$PROJECT_DIR$/validacion.php" />
       </list>
     </option>
   </component>
@@ -96,11 +108,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -118,22 +129,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="ProjectPane" />
       <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oscartita" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oscartita" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,6 +159,14 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
     <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
       <node-interpreter value="project" />
       <working-dir value="" />
@@ -178,15 +184,6 @@
       <method />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -233,11 +230,12 @@
       <workItem from="1495808490230" duration="5090000" />
       <workItem from="1495895865568" duration="6459000" />
       <workItem from="1498566671478" duration="1017000" />
+      <workItem from="1505740608556" duration="5856000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77375000" />
+    <option name="totallyTimeSpent" value="83231000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -247,12 +245,12 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -263,7 +261,7 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -390,7 +388,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
           <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
-          <folding />
+          <folding>
+            <marker date="1505747664608" expanded="true" signature="1392:1513" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1505747664608" expanded="true" signature="1392:1527" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1505747664608" expanded="true" signature="1392:1543" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1505747664608" expanded="true" signature="1392:1558" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1505747664608" expanded="true" signature="1392:1571" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1505747664608" expanded="true" signature="1392:1587" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1505747664608" expanded="true" signature="1392:1598" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1505747664608" expanded="true" signature="1392:1613" ph="INSERT INTO clientes_problemas... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -611,14 +618,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/servicios.php" />
-    <entry file="file://$PROJECT_DIR$/validacion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/npm.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -633,14 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/servicios.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="776">
-          <caret line="341" column="0" lean-forward="false" selection-start-line="341" selection-start-column="0" selection-end-line="341" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -651,8 +642,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/inicio.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="37" column="45" lean-forward="true" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="59" />
+        <state relative-caret-position="629">
+          <caret line="37" column="45" lean-forward="false" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="59" />
           <folding />
         </state>
       </provider>
@@ -662,6 +653,31 @@
         <state relative-caret-position="374">
           <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servicios.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="142" column="110" lean-forward="false" selection-start-line="142" selection-start-column="110" selection-end-line="142" selection-end-column="110" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/validacion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+          <folding>
+            <marker date="1505747664608" expanded="true" signature="1392:1513" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1505747664608" expanded="true" signature="1392:1527" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1505747664608" expanded="true" signature="1392:1543" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1505747664608" expanded="true" signature="1392:1558" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1505747664608" expanded="true" signature="1392:1571" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1505747664608" expanded="true" signature="1392:1587" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1505747664608" expanded="true" signature="1392:1598" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1505747664608" expanded="true" signature="1392:1613" ph="INSERT INTO clientes_problemas... " />
+          </folding>
         </state>
       </provider>
     </entry>
