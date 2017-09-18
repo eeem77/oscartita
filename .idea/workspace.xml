@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cf99e42-a980-4eef-b10b-591fae9d3900" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/servicios.html" afterPath="$PROJECT_DIR$/servicios.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/validacion.php" afterPath="$PROJECT_DIR$/validacion.php" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -61,17 +59,17 @@
       <file leaf-file-name="validacion.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/validacion.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+            <state relative-caret-position="493">
+              <caret line="41" column="37" lean-forward="false" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
               <folding>
-                <marker date="1505747664608" expanded="true" signature="1392:1513" ph="INSERT INTO clientes_problemas... " />
-                <marker date="1505747664608" expanded="true" signature="1392:1527" ph="INSERT INTO clientes_problemas... " />
-                <marker date="1505747664608" expanded="true" signature="1392:1543" ph="INSERT INTO clientes_problemas... " />
-                <marker date="1505747664608" expanded="true" signature="1392:1558" ph="INSERT INTO clientes_problemas... " />
-                <marker date="1505747664608" expanded="true" signature="1392:1571" ph="INSERT INTO clientes_problemas... " />
-                <marker date="1505747664608" expanded="true" signature="1392:1587" ph="INSERT INTO clientes_problemas... " />
-                <marker date="1505747664608" expanded="true" signature="1392:1598" ph="INSERT INTO clientes_problemas... " />
-                <marker date="1505747664608" expanded="true" signature="1392:1613" ph="INSERT INTO clientes_problemas... " />
+                <marker date="1505759779140" expanded="true" signature="1547:1668" ph="INSERT INTO clientes_problemas... " />
+                <marker date="1505759779140" expanded="true" signature="1547:1682" ph="INSERT INTO clientes_problemas... " />
+                <marker date="1505759779140" expanded="true" signature="1547:1698" ph="INSERT INTO clientes_problemas... " />
+                <marker date="1505759779140" expanded="true" signature="1547:1713" ph="INSERT INTO clientes_problemas... " />
+                <marker date="1505759779140" expanded="true" signature="1547:1726" ph="INSERT INTO clientes_problemas... " />
+                <marker date="1505759779140" expanded="true" signature="1547:1742" ph="INSERT INTO clientes_problemas... " />
+                <marker date="1505759779140" expanded="true" signature="1547:1753" ph="INSERT INTO clientes_problemas... " />
+                <marker date="1505759779140" expanded="true" signature="1547:1768" ph="INSERT INTO clientes_problemas... " />
               </folding>
             </state>
           </provider>
@@ -108,7 +106,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -230,18 +228,18 @@
       <workItem from="1495808490230" duration="5090000" />
       <workItem from="1495895865568" duration="6459000" />
       <workItem from="1498566671478" duration="1017000" />
-      <workItem from="1505740608556" duration="5856000" />
+      <workItem from="1505740608556" duration="8115000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83231000" />
+    <option name="totallyTimeSpent" value="85490000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.102604166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20563674" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -389,14 +387,14 @@
         <state relative-caret-position="410">
           <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
           <folding>
-            <marker date="1505747664608" expanded="true" signature="1392:1513" ph="INSERT INTO clientes_problemas... " />
-            <marker date="1505747664608" expanded="true" signature="1392:1527" ph="INSERT INTO clientes_problemas... " />
-            <marker date="1505747664608" expanded="true" signature="1392:1543" ph="INSERT INTO clientes_problemas... " />
-            <marker date="1505747664608" expanded="true" signature="1392:1558" ph="INSERT INTO clientes_problemas... " />
-            <marker date="1505747664608" expanded="true" signature="1392:1571" ph="INSERT INTO clientes_problemas... " />
-            <marker date="1505747664608" expanded="true" signature="1392:1587" ph="INSERT INTO clientes_problemas... " />
-            <marker date="1505747664608" expanded="true" signature="1392:1598" ph="INSERT INTO clientes_problemas... " />
-            <marker date="1505747664608" expanded="true" signature="1392:1613" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1505759779140" expanded="true" signature="1547:1668" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1505759779140" expanded="true" signature="1547:1682" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1505759779140" expanded="true" signature="1547:1698" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1505759779140" expanded="true" signature="1547:1713" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1505759779140" expanded="true" signature="1547:1726" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1505759779140" expanded="true" signature="1547:1742" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1505759779140" expanded="true" signature="1547:1753" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1505759779140" expanded="true" signature="1547:1768" ph="INSERT INTO clientes_problemas... " />
           </folding>
         </state>
       </provider>
@@ -666,17 +664,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/validacion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+        <state relative-caret-position="493">
+          <caret line="41" column="37" lean-forward="false" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
           <folding>
-            <marker date="1505747664608" expanded="true" signature="1392:1513" ph="INSERT INTO clientes_problemas... " />
-            <marker date="1505747664608" expanded="true" signature="1392:1527" ph="INSERT INTO clientes_problemas... " />
-            <marker date="1505747664608" expanded="true" signature="1392:1543" ph="INSERT INTO clientes_problemas... " />
-            <marker date="1505747664608" expanded="true" signature="1392:1558" ph="INSERT INTO clientes_problemas... " />
-            <marker date="1505747664608" expanded="true" signature="1392:1571" ph="INSERT INTO clientes_problemas... " />
-            <marker date="1505747664608" expanded="true" signature="1392:1587" ph="INSERT INTO clientes_problemas... " />
-            <marker date="1505747664608" expanded="true" signature="1392:1598" ph="INSERT INTO clientes_problemas... " />
-            <marker date="1505747664608" expanded="true" signature="1392:1613" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1505759779140" expanded="true" signature="1547:1668" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1505759779140" expanded="true" signature="1547:1682" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1505759779140" expanded="true" signature="1547:1698" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1505759779140" expanded="true" signature="1547:1713" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1505759779140" expanded="true" signature="1547:1726" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1505759779140" expanded="true" signature="1547:1742" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1505759779140" expanded="true" signature="1547:1753" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1505759779140" expanded="true" signature="1547:1768" ph="INSERT INTO clientes_problemas... " />
           </folding>
         </state>
       </provider>

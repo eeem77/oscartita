@@ -44,6 +44,14 @@ if (isset($_POST['alternador']) !="") {
 } else {
     $servicio = "";
 }
+if (isset($_POST['escaner']) !="") {
+    $servicio = "Escaner";
+} else {
+    $servicio = "";
+}
+if (isset($_POST['inyector']) !="") {
+    $servicio = "";
+}
 
 $sql = "INSERT INTO clientes_problemas (nombres, apellidos, contactos, correos, marca_modelo, observaciones, servicios) VALUES ('".$nombre."','".$apellido."','".$celular."','".$email."','".$vehiculo."','".$obs."','".$servicio."')";
 
