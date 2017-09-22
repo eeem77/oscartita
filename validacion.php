@@ -31,6 +31,13 @@ echo "<br>";
 
 $name = $apellido = $celular = $email = $vehiculo = "";
 
+function test_input($data){
+    $data = trim($data);
+    $data = stripcslashes($data);
+    $data = htmlspecialchars($data);
+    return $data;
+}
+
 $nombre = test_input($_POST["nombre"]);
 $apellido = test_input($_POST["apellido"]);
 $celular = test_input($_POST["celular"]);
@@ -38,18 +45,25 @@ $email = test_input($_POST["email"]);
 $vehiculo = test_input($_POST["vehiculo"]);
 $obs = test_input($_POST["obs"]);
 $fecha = date("d") ."/". date("m") ."/". date("Y");
-$servicio = "";
-
+$s_a = "";
+$s_e = "";
+$s_i = "";
+$s_m = "";
 
 if (isset($_POST['alternador']) !="") {
-    $servicio = "Alternador";
+    $s_a = " Alternador";
 }
 if (isset($_POST['escaner']) !="") {
-    $servicio = "Escaner";
+    $s_e = " Escaner";
 }
 if (isset($_POST['inyector']) !="") {
-    $servicio = "Inyectores";
+    $s_i = " Inyectores";
 }
+if (isset($_POST['mecanica']) !="") {
+    $s_m = " Mecanica";
+}
+
+$servicio = $s_a . $s_e . $s_i . $s_m;
 
 $sql = "INSERT INTO clientes_problemas (nombres, apellidos, contactos, correos, marca_modelo, observaciones, servicios, fecha) VALUES ('".$nombre."','".$apellido."','".$celular."','".$email."','".$vehiculo."','".$obs."','".$servicio."','".$fecha."')";
 
@@ -60,13 +74,6 @@ if ($conn->query($sql) === TRUE) {
 }
 
 $conn->close();
-
-function test_input($data){
-    $data = trim($data);
-    $data = stripcslashes($data);
-    $data = htmlspecialchars($data);
-    return $data;
-}
 
     echo $nombre;
     echo "<br>";
@@ -80,7 +87,10 @@ function test_input($data){
     echo "<br>";
     echo $obs;
     echo "<br>";
+    echo $servicio;
+    echo "<br>";
     echo $fecha;
+
 /**
  * Created by PhpStorm
  * User: eeem77
