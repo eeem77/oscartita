@@ -83,50 +83,50 @@ $conn->close();
  */
 ?>
 <div class="container-fluid">
-    <div class="row center-block">
-        <table id="img-tabla" class="table-responsive">
-            <tr>
-                <td><img class="img-responsive" src="img/img-marcas-carros/CHERY.png" alt=""></td>
-                <td><img class="img-responsive" src="img/img-marcas-carros/CHEVROLET.png" alt=""></td>
-                <td><img class="img-responsive" src="img/img-marcas-carros/CHRYSLER.png" alt=""></td>
-                <td><img class="img-responsive" src="img/img-marcas-carros/DODGE.png" alt=""></td>
-                <td><img class="img-responsive" src="img/img-marcas-carros/FIAT.png" alt=""></td>
-                <td><img class="img-responsive" src="img/img-marcas-carros/FORD.png" alt=""></td>
-                <td><img class="img-responsive" src="img/img-marcas-carros/HONDA.png" alt=""></td>
-                <td><img class="img-responsive" src="img/img-marcas-carros/HYUNDAI.png" alt=""></td>
-                <td><img class="img-responsive" src="img/img-marcas-carros/JEEP.png" alt=""></td>
-                <td><img class="img-responsive" src="img/img-marcas-carros/MAZDA.png" alt=""></td>
-                <td><img class="img-responsive" src="img/img-marcas-carros/MITSUBISHI.png" alt=""></td>
-                <td><img class="img-responsive" src="img/img-marcas-carros/PEUGEOT.png" alt=""></td>
-                <td><img class="img-responsive" src="img/img-marcas-carros/TOYOTA.png" alt=""></td>
-                <td><img class="img-responsive" src="img/img-marcas-carros/VOLSKWAGEN.png" alt=""></td>
-            </tr>
-        </table>
-    </div>
-    <div class="row">
-        <ul class="nav nav-tabs">
-            <li role="presentation"><a href="inicio.html">Inicio</a></li>
-            <li role="presentation" class="active"><a href="#">Servicios</a></li>
-            <li role="presentation"><a href="#">Citas</a></li>
-        </ul>
+    <div class="jumbotron con">
+        <h1>Electro Auto Oscartita C.A.</h1>
+        <p class="text-muted">J-40439176-2</p>
+        <p><?php echo "Sr(a) " . $nombre ?>. Gracias por confiar en nosotros. Pronto nos comunicaremos con usted.</p>
+        <p><a class="btn btn-primary btn-lg btn-index" href="inicio.html" role="button">Continuar</a></p>
     </div>
 </div>
 <?php
-echo $nombre;
-echo "<br>";
-echo $apellido;
-echo "<br>";
-echo $celular;
-echo "<br>";
-echo $email;
-echo "<br>";
-echo $vehiculo;
-echo "<br>";
-echo $obs;
-echo "<br>";
-echo $servicio;
-echo "<br>";
-echo $fecha;
+$destinatario = "montimarq@gmail.com";
+$asunto = "Electro Auto Oscartita C.A.";
+$cuerpo = ' 
+<html> 
+<head> 
+   <title>Electro Auto Oscartita C.A.</title> 
+</head> 
+<body> 
+<h1>Nuestros clientes son primero!</h1> 
+<p> 
+<b>Bienvenidos al servicio de correos de Electro Auto Oscartita C.A.</b>. Ofrecemos el mejor servicio para su vehiculo. 
+</p> 
+</body> 
+</html> 
+';
+
+//para el envío en formato HTML
+$headers = "MIME-Version: 1.0\r\n";
+$headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
+
+//dirección del remitente
+$headers .= "From: Electro Auto Oscartita C.A. <electroautoscartita@gmail.com>\r\n";
+
+//dirección de respuesta, si queremos que sea distinta que la del remitente
+//$headers .= "Reply-To: mariano@desarrolloweb.com\r\n";
+
+//ruta del mensaje desde origen a destino
+//$headers .= "Return-path: holahola@desarrolloweb.com\r\n";
+
+//direcciones que recibián copia
+//$headers .= "Cc: maria@desarrolloweb.com\r\n";
+
+//direcciones que recibirán copia oculta
+//$headers .= "Bcc: pepe@pepe.com,juan@juan.com\r\n";
+
+mail($destinatario,$asunto,$cuerpo,$headers)
 ?>
 </body>
 </html>

@@ -17,7 +17,7 @@
       <file leaf-file-name="inicio.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/inicio.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
+            <state relative-caret-position="17">
               <caret line="37" column="45" lean-forward="false" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="59" />
               <folding />
             </state>
@@ -27,18 +27,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="72" lean-forward="false" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
+            <state relative-caret-position="340">
+              <caret line="20" column="6" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="20" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="servicios.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="servicios.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/servicios.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            <state relative-caret-position="348">
+              <caret line="334" column="28" lean-forward="false" selection-start-line="334" selection-start-column="28" selection-end-line="334" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -54,14 +54,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="validacion.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="validacion.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/validacion.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="70" column="6" lean-forward="false" selection-start-line="70" selection-start-column="6" selection-end-line="70" selection-end-column="6" />
+            <state relative-caret-position="5">
+              <caret line="93" column="26" lean-forward="false" selection-start-line="93" selection-start-column="26" selection-end-line="93" selection-end-column="26" />
               <folding>
-                <marker date="1506096532251" expanded="true" signature="1818:2047" ph="INSERT INTO clientes_problemas... " />
-                <marker date="1506096532251" expanded="true" signature="1818:2059" ph="INSERT INTO clientes_problemas... " />
+                <marker date="1506109127681" expanded="true" signature="1818:2047" ph="INSERT INTO clientes_problemas... " />
+                <marker date="1506109127681" expanded="true" signature="1818:2059" ph="INSERT INTO clientes_problemas... " />
+                <marker date="1506109127681" expanded="true" signature="2823:3086" ph="..." />
+                <marker date="1506109127681" expanded="true" signature="2831:2887" ph="..." />
+                <marker date="1506109127681" expanded="true" signature="2895:3077" ph="..." />
+                <marker date="1506109127681" expanded="true" signature="2941:3068" ph="..." />
               </folding>
             </state>
           </provider>
@@ -86,8 +90,8 @@
         <option value="$PROJECT_DIR$/inicio.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/estilo.css" />
-        <option value="$PROJECT_DIR$/validacion.php" />
         <option value="$PROJECT_DIR$/servicios.html" />
+        <option value="$PROJECT_DIR$/validacion.php" />
       </list>
     </option>
   </component>
@@ -221,12 +225,12 @@
       <workItem from="1495895865568" duration="6459000" />
       <workItem from="1498566671478" duration="1017000" />
       <workItem from="1505740608556" duration="8115000" />
-      <workItem from="1506087706538" duration="8369000" />
+      <workItem from="1506087706538" duration="15190000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93859000" />
+    <option name="totallyTimeSpent" value="100680000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -380,8 +384,12 @@
         <state relative-caret-position="410">
           <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
           <folding>
-            <marker date="1506096532251" expanded="true" signature="1818:2047" ph="INSERT INTO clientes_problemas... " />
-            <marker date="1506096532251" expanded="true" signature="1818:2059" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1506109127681" expanded="true" signature="1818:2047" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1506109127681" expanded="true" signature="1818:2059" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1506109127681" expanded="true" signature="2823:3086" ph="..." />
+            <marker date="1506109127681" expanded="true" signature="2831:2887" ph="..." />
+            <marker date="1506109127681" expanded="true" signature="2895:3077" ph="..." />
+            <marker date="1506109127681" expanded="true" signature="2941:3068" ph="..." />
           </folding>
         </state>
       </provider>
@@ -617,17 +625,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="72" lean-forward="false" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/inicio.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
+        <state relative-caret-position="17">
           <caret line="37" column="45" lean-forward="false" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="59" />
           <folding />
         </state>
@@ -641,22 +641,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/validacion.php">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="70" column="6" lean-forward="false" selection-start-line="70" selection-start-column="6" selection-end-line="70" selection-end-column="6" />
-          <folding>
-            <marker date="1506096532251" expanded="true" signature="1818:2047" ph="INSERT INTO clientes_problemas... " />
-            <marker date="1506096532251" expanded="true" signature="1818:2059" ph="INSERT INTO clientes_problemas... " />
-          </folding>
+        <state relative-caret-position="340">
+          <caret line="20" column="6" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="20" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/servicios.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="348">
+          <caret line="334" column="28" lean-forward="false" selection-start-line="334" selection-start-column="28" selection-end-line="334" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/validacion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5">
+          <caret line="93" column="26" lean-forward="false" selection-start-line="93" selection-start-column="26" selection-end-line="93" selection-end-column="26" />
+          <folding>
+            <marker date="1506109127681" expanded="true" signature="1818:2047" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1506109127681" expanded="true" signature="1818:2059" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1506109127681" expanded="true" signature="2823:3086" ph="..." />
+            <marker date="1506109127681" expanded="true" signature="2831:2887" ph="..." />
+            <marker date="1506109127681" expanded="true" signature="2895:3077" ph="..." />
+            <marker date="1506109127681" expanded="true" signature="2941:3068" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
