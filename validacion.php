@@ -37,7 +37,9 @@ $celular = test_input($_POST["celular"]);
 $email = test_input($_POST["email"]);
 $vehiculo = test_input($_POST["vehiculo"]);
 $obs = test_input($_POST["obs"]);
+$fecha = date("d") ."/". date("m") ."/". date("Y");
 $bandera = false;
+
 
 if (isset($_POST['alternador']) !="") {
     $servicio = "Alternador";
@@ -53,7 +55,7 @@ if (isset($_POST['inyector']) !="") {
     $servicio = "";
 }
 
-$sql = "INSERT INTO clientes_problemas (nombres, apellidos, contactos, correos, marca_modelo, observaciones, servicios) VALUES ('".$nombre."','".$apellido."','".$celular."','".$email."','".$vehiculo."','".$obs."','".$servicio."')";
+$sql = "INSERT INTO clientes_problemas (nombres, apellidos, contactos, correos, marca_modelo, observaciones, servicios, fecha) VALUES ('".$nombre."','".$apellido."','".$celular."','".$email."','".$vehiculo."','".$obs."','".$servicio."','".$fecha."')";
 
 if ($conn->query($sql) === TRUE) {
     echo "se insertaron los datos en la tabla";
@@ -81,7 +83,8 @@ function test_input($data){
     echo $vehiculo;
     echo "<br>";
     echo $obs;
-
+    echo "<br>";
+    echo $fecha;
 /**
  * Created by PhpStorm
  * User: eeem77

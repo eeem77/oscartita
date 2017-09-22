@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7cf99e42-a980-4eef-b10b-591fae9d3900" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/validacion.php" afterPath="$PROJECT_DIR$/validacion.php" />
-    </list>
+    <list default="true" id="7cf99e42-a980-4eef-b10b-591fae9d3900" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -39,7 +37,7 @@
       <file leaf-file-name="servicios.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/servicios.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
+            <state relative-caret-position="2414">
               <caret line="142" column="110" lean-forward="false" selection-start-line="142" selection-start-column="110" selection-end-line="142" selection-end-column="110" />
               <folding />
             </state>
@@ -59,17 +57,11 @@
       <file leaf-file-name="validacion.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/validacion.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="41" column="37" lean-forward="false" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+            <state relative-caret-position="85">
+              <caret line="57" column="125" lean-forward="false" selection-start-line="57" selection-start-column="125" selection-end-line="57" selection-end-column="125" />
               <folding>
-                <marker date="1505759779140" expanded="true" signature="1547:1668" ph="INSERT INTO clientes_problemas... " />
-                <marker date="1505759779140" expanded="true" signature="1547:1682" ph="INSERT INTO clientes_problemas... " />
-                <marker date="1505759779140" expanded="true" signature="1547:1698" ph="INSERT INTO clientes_problemas... " />
-                <marker date="1505759779140" expanded="true" signature="1547:1713" ph="INSERT INTO clientes_problemas... " />
-                <marker date="1505759779140" expanded="true" signature="1547:1726" ph="INSERT INTO clientes_problemas... " />
-                <marker date="1505759779140" expanded="true" signature="1547:1742" ph="INSERT INTO clientes_problemas... " />
-                <marker date="1505759779140" expanded="true" signature="1547:1753" ph="INSERT INTO clientes_problemas... " />
-                <marker date="1505759779140" expanded="true" signature="1547:1768" ph="INSERT INTO clientes_problemas... " />
+                <marker date="1506091137791" expanded="true" signature="1600:1829" ph="INSERT INTO clientes_problemas... " />
+                <marker date="1506091137791" expanded="true" signature="1600:1841" ph="INSERT INTO clientes_problemas... " />
               </folding>
             </state>
           </provider>
@@ -106,10 +98,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -127,9 +119,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,26 +221,27 @@
       <workItem from="1495895865568" duration="6459000" />
       <workItem from="1498566671478" duration="1017000" />
       <workItem from="1505740608556" duration="8115000" />
+      <workItem from="1506087706538" duration="3389000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85490000" />
+    <option name="totallyTimeSpent" value="88879000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20563674" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.038799413" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -387,14 +380,8 @@
         <state relative-caret-position="410">
           <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
           <folding>
-            <marker date="1505759779140" expanded="true" signature="1547:1668" ph="INSERT INTO clientes_problemas... " />
-            <marker date="1505759779140" expanded="true" signature="1547:1682" ph="INSERT INTO clientes_problemas... " />
-            <marker date="1505759779140" expanded="true" signature="1547:1698" ph="INSERT INTO clientes_problemas... " />
-            <marker date="1505759779140" expanded="true" signature="1547:1713" ph="INSERT INTO clientes_problemas... " />
-            <marker date="1505759779140" expanded="true" signature="1547:1726" ph="INSERT INTO clientes_problemas... " />
-            <marker date="1505759779140" expanded="true" signature="1547:1742" ph="INSERT INTO clientes_problemas... " />
-            <marker date="1505759779140" expanded="true" signature="1547:1753" ph="INSERT INTO clientes_problemas... " />
-            <marker date="1505759779140" expanded="true" signature="1547:1768" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1506091137791" expanded="true" signature="1600:1829" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1506091137791" expanded="true" signature="1600:1841" ph="INSERT INTO clientes_problemas... " />
           </folding>
         </state>
       </provider>
@@ -656,7 +643,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/servicios.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="2414">
           <caret line="142" column="110" lean-forward="false" selection-start-line="142" selection-start-column="110" selection-end-line="142" selection-end-column="110" />
           <folding />
         </state>
@@ -664,17 +651,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/validacion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="41" column="37" lean-forward="false" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+        <state relative-caret-position="85">
+          <caret line="57" column="125" lean-forward="false" selection-start-line="57" selection-start-column="125" selection-end-line="57" selection-end-column="125" />
           <folding>
-            <marker date="1505759779140" expanded="true" signature="1547:1668" ph="INSERT INTO clientes_problemas... " />
-            <marker date="1505759779140" expanded="true" signature="1547:1682" ph="INSERT INTO clientes_problemas... " />
-            <marker date="1505759779140" expanded="true" signature="1547:1698" ph="INSERT INTO clientes_problemas... " />
-            <marker date="1505759779140" expanded="true" signature="1547:1713" ph="INSERT INTO clientes_problemas... " />
-            <marker date="1505759779140" expanded="true" signature="1547:1726" ph="INSERT INTO clientes_problemas... " />
-            <marker date="1505759779140" expanded="true" signature="1547:1742" ph="INSERT INTO clientes_problemas... " />
-            <marker date="1505759779140" expanded="true" signature="1547:1753" ph="INSERT INTO clientes_problemas... " />
-            <marker date="1505759779140" expanded="true" signature="1547:1768" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1506091137791" expanded="true" signature="1600:1829" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1506091137791" expanded="true" signature="1600:1841" ph="INSERT INTO clientes_problemas... " />
           </folding>
         </state>
       </provider>
