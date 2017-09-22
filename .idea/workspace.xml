@@ -57,11 +57,11 @@
       <file leaf-file-name="validacion.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/validacion.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="57" column="125" lean-forward="false" selection-start-line="57" selection-start-column="125" selection-end-line="57" selection-end-column="125" />
+            <state relative-caret-position="102">
+              <caret line="40" column="14" lean-forward="false" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
               <folding>
-                <marker date="1506091137791" expanded="true" signature="1600:1829" ph="INSERT INTO clientes_problemas... " />
-                <marker date="1506091137791" expanded="true" signature="1600:1841" ph="INSERT INTO clientes_problemas... " />
+                <marker date="1506091589599" expanded="true" signature="1550:1779" ph="INSERT INTO clientes_problemas... " />
+                <marker date="1506091589599" expanded="true" signature="1550:1791" ph="INSERT INTO clientes_problemas... " />
               </folding>
             </state>
           </provider>
@@ -98,7 +98,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -221,15 +221,15 @@
       <workItem from="1495895865568" duration="6459000" />
       <workItem from="1498566671478" duration="1017000" />
       <workItem from="1505740608556" duration="8115000" />
-      <workItem from="1506087706538" duration="3389000" />
+      <workItem from="1506087706538" duration="3804000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88879000" />
+    <option name="totallyTimeSpent" value="89294000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.038799413" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -380,8 +380,8 @@
         <state relative-caret-position="410">
           <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
           <folding>
-            <marker date="1506091137791" expanded="true" signature="1600:1829" ph="INSERT INTO clientes_problemas... " />
-            <marker date="1506091137791" expanded="true" signature="1600:1841" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1506091589599" expanded="true" signature="1550:1779" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1506091589599" expanded="true" signature="1550:1791" ph="INSERT INTO clientes_problemas... " />
           </folding>
         </state>
       </provider>
@@ -651,11 +651,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/validacion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="57" column="125" lean-forward="false" selection-start-line="57" selection-start-column="125" selection-end-line="57" selection-end-column="125" />
+        <state relative-caret-position="102">
+          <caret line="40" column="14" lean-forward="false" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
           <folding>
-            <marker date="1506091137791" expanded="true" signature="1600:1829" ph="INSERT INTO clientes_problemas... " />
-            <marker date="1506091137791" expanded="true" signature="1600:1841" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1506091589599" expanded="true" signature="1550:1779" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1506091589599" expanded="true" signature="1550:1791" ph="INSERT INTO clientes_problemas... " />
           </folding>
         </state>
       </provider>

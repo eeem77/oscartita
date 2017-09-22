@@ -38,21 +38,17 @@ $email = test_input($_POST["email"]);
 $vehiculo = test_input($_POST["vehiculo"]);
 $obs = test_input($_POST["obs"]);
 $fecha = date("d") ."/". date("m") ."/". date("Y");
-$bandera = false;
+$servicio = "";
 
 
 if (isset($_POST['alternador']) !="") {
     $servicio = "Alternador";
-} else {
-    $servicio = "";
 }
 if (isset($_POST['escaner']) !="") {
     $servicio = "Escaner";
-} else {
-    $servicio = "";
 }
 if (isset($_POST['inyector']) !="") {
-    $servicio = "";
+    $servicio = "Inyectores";
 }
 
 $sql = "INSERT INTO clientes_problemas (nombres, apellidos, contactos, correos, marca_modelo, observaciones, servicios, fecha) VALUES ('".$nombre."','".$apellido."','".$celular."','".$email."','".$vehiculo."','".$obs."','".$servicio."','".$fecha."')";
