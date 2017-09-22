@@ -57,11 +57,11 @@
       <file leaf-file-name="validacion.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/validacion.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="40" lean-forward="true" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+            <state relative-caret-position="901">
+              <caret line="53" column="25" lean-forward="true" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
               <folding>
-                <marker date="1506095169613" expanded="true" signature="1814:2043" ph="INSERT INTO clientes_problemas... " />
-                <marker date="1506095169613" expanded="true" signature="1814:2055" ph="INSERT INTO clientes_problemas... " />
+                <marker date="1506095523240" expanded="true" signature="1814:2043" ph="INSERT INTO clientes_problemas... " />
+                <marker date="1506095523240" expanded="true" signature="1814:2055" ph="INSERT INTO clientes_problemas... " />
               </folding>
             </state>
           </provider>
@@ -221,12 +221,12 @@
       <workItem from="1495895865568" duration="6459000" />
       <workItem from="1498566671478" duration="1017000" />
       <workItem from="1505740608556" duration="8115000" />
-      <workItem from="1506087706538" duration="6807000" />
+      <workItem from="1506087706538" duration="7051000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92297000" />
+    <option name="totallyTimeSpent" value="92541000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -380,8 +380,8 @@
         <state relative-caret-position="410">
           <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
           <folding>
-            <marker date="1506095169613" expanded="true" signature="1814:2043" ph="INSERT INTO clientes_problemas... " />
-            <marker date="1506095169613" expanded="true" signature="1814:2055" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1506095523240" expanded="true" signature="1814:2043" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1506095523240" expanded="true" signature="1814:2055" ph="INSERT INTO clientes_problemas... " />
           </folding>
         </state>
       </provider>
@@ -651,11 +651,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/validacion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="40" lean-forward="true" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        <state relative-caret-position="901">
+          <caret line="53" column="25" lean-forward="true" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
           <folding>
-            <marker date="1506095169613" expanded="true" signature="1814:2043" ph="INSERT INTO clientes_problemas... " />
-            <marker date="1506095169613" expanded="true" signature="1814:2055" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1506095523240" expanded="true" signature="1814:2043" ph="INSERT INTO clientes_problemas... " />
+            <marker date="1506095523240" expanded="true" signature="1814:2055" ph="INSERT INTO clientes_problemas... " />
           </folding>
         </state>
       </provider>

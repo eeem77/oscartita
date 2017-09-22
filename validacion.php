@@ -75,21 +75,21 @@ if ($conn->query($sql) === TRUE) {
 
 $conn->close();
 
-    echo $nombre;
-    echo "<br>";
-    echo $apellido;
-    echo "<br>";
-    echo $celular;
-    echo "<br>";
-    echo $email;
-    echo "<br>";
-    echo $vehiculo;
-    echo "<br>";
-    echo $obs;
-    echo "<br>";
-    echo $servicio;
-    echo "<br>";
-    echo $fecha;
+echo $nombre;
+echo "<br>";
+echo $apellido;
+echo "<br>";
+echo $celular;
+echo "<br>";
+echo $email;
+echo "<br>";
+echo $vehiculo;
+echo "<br>";
+echo $obs;
+echo "<br>";
+echo $servicio;
+echo "<br>";
+echo $fecha;
 
 /**
  * Created by PhpStorm
