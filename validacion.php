@@ -26,8 +26,8 @@ if ($conn->connect_error) {
 }
 
 // Mensaje de conexion
-echo "Conexion con la base de datos de forma correcta";
-echo "<br>";
+//echo "Conexion con la base de datos de forma correcta";
+//echo "<br>";
 
 $name = $apellido = $celular = $email = $vehiculo = "";
 
@@ -68,13 +68,50 @@ $servicio = $s_a . $s_e . $s_i . $s_m;
 $sql = "INSERT INTO clientes_problemas (nombres, apellidos, contactos, correos, marca_modelo, observaciones, servicios, fecha) VALUES ('".$nombre."','".$apellido."','".$celular."','".$email."','".$vehiculo."','".$obs."','".$servicio."','".$fecha."')";
 
 if ($conn->query($sql) === TRUE) {
-    echo "se insertaron los datos en la tabla";
+    //echo "se insertaron los datos en la tabla";
 } else {
     echo "Error: " . $sql . "<br>" . $conn->connect_error;
 }
 
 $conn->close();
 
+/**
+ * Created by PhpStorm
+ * User: eeem77
+ * Date: 23/5/2017
+ * Time: 11:06 AM
+ */
+?>
+<div class="container-fluid">
+    <div class="row center-block">
+        <table id="img-tabla" class="table-responsive">
+            <tr>
+                <td><img class="img-responsive" src="img/img-marcas-carros/CHERY.png" alt=""></td>
+                <td><img class="img-responsive" src="img/img-marcas-carros/CHEVROLET.png" alt=""></td>
+                <td><img class="img-responsive" src="img/img-marcas-carros/CHRYSLER.png" alt=""></td>
+                <td><img class="img-responsive" src="img/img-marcas-carros/DODGE.png" alt=""></td>
+                <td><img class="img-responsive" src="img/img-marcas-carros/FIAT.png" alt=""></td>
+                <td><img class="img-responsive" src="img/img-marcas-carros/FORD.png" alt=""></td>
+                <td><img class="img-responsive" src="img/img-marcas-carros/HONDA.png" alt=""></td>
+                <td><img class="img-responsive" src="img/img-marcas-carros/HYUNDAI.png" alt=""></td>
+                <td><img class="img-responsive" src="img/img-marcas-carros/JEEP.png" alt=""></td>
+                <td><img class="img-responsive" src="img/img-marcas-carros/MAZDA.png" alt=""></td>
+                <td><img class="img-responsive" src="img/img-marcas-carros/MITSUBISHI.png" alt=""></td>
+                <td><img class="img-responsive" src="img/img-marcas-carros/PEUGEOT.png" alt=""></td>
+                <td><img class="img-responsive" src="img/img-marcas-carros/TOYOTA.png" alt=""></td>
+                <td><img class="img-responsive" src="img/img-marcas-carros/VOLSKWAGEN.png" alt=""></td>
+            </tr>
+        </table>
+    </div>
+    <div class="row">
+        <ul class="nav nav-tabs">
+            <li role="presentation"><a href="inicio.html">Inicio</a></li>
+            <li role="presentation" class="active"><a href="#">Servicios</a></li>
+            <li role="presentation"><a href="#">Citas</a></li>
+        </ul>
+    </div>
+</div>
+<?php
 echo $nombre;
 echo "<br>";
 echo $apellido;
@@ -90,13 +127,6 @@ echo "<br>";
 echo $servicio;
 echo "<br>";
 echo $fecha;
-
-/**
- * Created by PhpStorm
- * User: eeem77
- * Date: 23/5/2017
- * Time: 11:06 AM
- */
 ?>
 </body>
 </html>
