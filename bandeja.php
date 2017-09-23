@@ -56,14 +56,60 @@
                     die("Connection failed: " . $conn->connect_error);
                 }
 
-                $sql = "SELECT id, nombres, apellidos, contactos, correos, marca_modelo, observaciones, servicios, fecha FROM clientes_problemas";
+                $sql = "SELECT id, nombres, apellidos, contactos, correos, marca_modelo, observaciones, servicios, fecha FROM clientes_problemas WHERE estado=0";
+                $result = $conn->query($sql);
+
+                if ($result->num_rows > 0) {
+                    while ($row = $result->fetch_assoc()) {
+                        $id = $row["id"];
+                        echo "
+                        <div class=\"col-xs-12 col-ms-12 col-md-12 col-lg-12\">
+                            <div class=\"panel panel-default panel-primary\">
+                                <div class=\"panel-heading\">
+                                    Solicitud de servicio 
+                                    <button type=\"button\" class=\"close\" aria-hidden=\"true\" onclick='fin()'>&times;</button>
+                                </div>
+                                    <!-- Default panel contents -->
+                                <div class=\"panel-body\">
+                                    <p class=\"text-center\">
+                                        <b>Servicio</b><br>" . $row["id"] . "<br>
+                                        <b>Nombre</b><br>" . $row["nombres"] . "<br>
+                                        <b>Apellido</b><br>" . $row["apellidos"] . "<br>
+                                        <b>Numero de contacto</b><br>" . $row["contactos"] . "<br>
+                                        <b>Correo</b><br>" . $row["correos"] . "<br>
+                                        <b>Caracteristicas del vehiculo</b><br>" . $row["marca_modelo"] . "<br>
+                                        <b>Observaciones</b><br>" . $row["observaciones"] . "<br>
+                                        <b>Servicios solicitados</b><br>" . $row["servicios"] . "<br>
+                                        <b>Fecha</b><br>" . $row["fecha"] . "<br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>";
+                        function fin($id){
+                            include "bandeja.php";
+                            $id = $row["id"];
+                            $servername = "localhost";
+                            $username = "root";
+                            $password = "";
+                            $dbname = "oscartita";
+
+                            // Creamos la conexion con la base de datos
+                            $conn = new mysqli($servername, $username, $password, $dbname);
+                            $sql = "UPDATE clientes_problemas SET estatus='1' WHERE id='$id'";
+                            if ($conn->query($sql) === TRUE){
+
+                            }
+                        }
+                    }
+                }
+                $sql = "SELECT id, nombres, apellidos, contactos, correos, marca_modelo, observaciones, servicios, fecha FROM clientes_problemas WHERE estado=1";
                 $result = $conn->query($sql);
 
                 if ($result->num_rows > 0) {
                     while ($row = $result->fetch_assoc()) {
                         echo "
                         <div class=\"col-xs-12 col-ms-12 col-md-12 col-lg-12\">
-                            <div class=\"panel panel-default panel-primary\">
+                            <div class=\"panel panel-default panel-success\">
                                 <div class=\"panel-heading\">Solicitud de servicio</div>
                                     <!-- Default panel contents -->
                                 <div class=\"panel-body\">
