@@ -66,8 +66,11 @@
                         <div class=\"col-xs-12 col-ms-12 col-md-12 col-lg-12\">
                             <div class=\"panel panel-default panel-primary\">
                                 <div class=\"panel-heading\">
-                                    Solicitud de servicio 
-                                    <button type=\"button\" class=\"close\" aria-hidden=\"true\" onclick='fin()'>&times;</button>
+                                    Solicitud de servicio
+                                    <form method='post' action='final.php'>
+                                        <button type=\"submit\" class=\"close\" aria-hidden=\"true\">&times;</button><br>
+                                        <input type='text' name='id' value='$id' hidden>
+                                    </form>                                    
                                 </div>
                                     <!-- Default panel contents -->
                                 <div class=\"panel-body\">
@@ -85,21 +88,6 @@
                                 </div>
                             </div>
                         </div>";
-                        function fin($id){
-                            include "bandeja.php";
-                            $id = $row["id"];
-                            $servername = "localhost";
-                            $username = "root";
-                            $password = "";
-                            $dbname = "oscartita";
-
-                            // Creamos la conexion con la base de datos
-                            $conn = new mysqli($servername, $username, $password, $dbname);
-                            $sql = "UPDATE clientes_problemas SET estatus='1' WHERE id='$id'";
-                            if ($conn->query($sql) === TRUE){
-
-                            }
-                        }
                     }
                 }
                 $sql = "SELECT id, nombres, apellidos, contactos, correos, marca_modelo, observaciones, servicios, fecha FROM clientes_problemas WHERE estado=1";
@@ -129,6 +117,7 @@
                         </div>";
                     }
                 }
+                $conn->close();
                 ?>
             </div>
         </div>
