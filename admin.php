@@ -99,7 +99,7 @@
         $('#usuario').attr('class', 'form-group');
         $('#form-span-usuario').attr('class', '');
         $('#in-usuario').val('');
-        $('#btn-solicitar-servicio').hide();
+        //$('#btn-solicitar-servicio').hide();
     }
     function cambiarclave() {
         if ($('#in-clave').val().trim() === ''){
@@ -120,7 +120,7 @@
         $('#clave').attr('class', 'form-group');
         $('#form-span-clave').attr('class', '');
         $('#in-clave').val('');
-        $('#btn-solicitar-servicio').hide();
+        //$('#btn-solicitar-servicio').hide();
     }
 
     function descambiartodo() {
@@ -130,13 +130,13 @@
         $('#clave').attr('class', 'form-group');
         $('#form-span-clave').attr('class', '');
         $('#in-clave').val('');
-        $('#btn-solicitar-servicio').hide();
+        //$('#btn-solicitar-servicio').hide();
     }
     $(document).ready(function () {
         var $a = 0;
         var $b = 0;
 
-        $('#btn-solicitar-servicio').hide();
+        //$('#btn-solicitar-servicio').hide();
     });
 </script>
 </body>
